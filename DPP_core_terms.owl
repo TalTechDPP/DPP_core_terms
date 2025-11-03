@@ -1,0 +1,1324 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://purl.org/dpp.core/terms#"
+     xml:base="https://purl.org/dpp.core/terms"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://purl.org/dpp.core/terms">
+        <dcterms:contributor xml:lang="en">Hele-Mai Haav [https://orcid.org/0000-0002-7378-3865]</dcterms:contributor>
+        <dcterms:contributor xml:lang="en">Riina Maigre [https://orcid.org/0000-0001-9797-9128]</dcterms:contributor>
+        <dcterms:creator xml:lang="en">Tarmo Robal [https://orcid.org/0000-0002-7396-8843]</dcterms:creator>
+        <dcterms:issued>2025/10/31</dcterms:issued>
+        <dcterms:licence xml:lang="en">Except otherwise noted, original content on this document is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence.</dcterms:licence>
+        <rdfs:comment xml:lang="en">Third consolidated revision of terms defining the EU DPP domain based on ESPR () and referred regulative acts. 
+
+In this version, if multiple definitions from regulatory acts were detected for a term, they were merged under one class. The alternative definitions are provided, whenever applicable, as dcterms:description annotations for each term.
+
+THIS DOCUMENT IS PROVIDED WITH NO WARRANTIES WHATSOEVER. 
+All liability for any damages arising from use or misuse of this vocabulary is with the user.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vocabulary of terms with definitions from the regulations
+defining the EU DPP domain according to the ESPR with references to regulatory acts.</rdfs:label>
+        <owl:versionInfo>1.3.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/licence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/licence"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Accreditation -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Accreditation">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2008/765/oj/eng"/>
+        <dc:source xml:lang="en">Regulation (EC) No 765/2008; Art 2(10)</dc:source>
+        <rdfs:comment xml:lang="en">shall mean an attestation by a national accreditation body that a conformity assessment body meets the requirements set by harmonised standards and, where applicable, any additional requirements including those set out in relevant sectoral schemes, to carry out a specific conformity assessment activity</rdfs:comment>
+        <rdfs:label xml:lang="en">Accreditation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#AuthorisedRepresentative -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#AuthorisedRepresentative">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(43)</dc:source>
+        <rdfs:comment xml:lang="en">means any natural or legal person established in the Union that has received a written mandate from the manufacturer to act on the manufacturer’s behalf in relation to specified tasks with regard to the manufacturer’s obligations under this Regulation</rdfs:comment>
+        <rdfs:label xml:lang="en">Authorised representative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Batch -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Batch">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(3)</dc:source>
+        <rdfs:comment xml:lang="en">means a subset of a specific model composed of all products produced in a specific manufacturing plant at a specific moment in time</rdfs:comment>
+        <rdfs:label xml:lang="en">Batch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#CEMarking -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#CEMarking">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(50)</dc:source>
+        <rdfs:comment xml:lang="en">means a marking by which the manufacturer indicates that the relevant product is in conformity with the applicable requirements set out in Union harmonisation legislation providing for its affixing</rdfs:comment>
+        <rdfs:label xml:lang="en">CE marking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#CarbonFootprint -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#CarbonFootprint">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(25)</dc:source>
+        <rdfs:comment xml:lang="en">means the sum of greenhouse gas emissions and greenhouse gas removals in a product system, expressed as CO2 equivalents and based on a life cycle assessment using the single impact category of climate change</rdfs:comment>
+        <rdfs:label xml:lang="en">Carbon footprint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ClassOfPerformance -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ClassOfPerformance">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(15)</dc:source>
+        <rdfs:comment xml:lang="en">means a range of performance levels in relation to one or more product parameters referred to in Annex I, which is established based on a common methodology for the product or product group, ordered in such a way as to allow for product differentiation</rdfs:comment>
+        <rdfs:label xml:lang="en">Class of performance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ComplianceDocumentation -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ComplianceDocumentation">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; ANNEX III</dc:source>
+        <rdfs:comment xml:lang="en">means compliance documentation and information required under this Regulation or other Union law applicable to the product, such as the declaration  of conformity, technical documentation or conformity certificates (Annex III (e)).</rdfs:comment>
+        <rdfs:label xml:lang="en">Compliance documentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Component -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Component">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(2)</dc:source>
+        <rdfs:comment xml:lang="en">means a product intended to be incorporated into another product</rdfs:comment>
+        <rdfs:label xml:lang="en">Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ConcentrationOfTheSubstanceOfConcern -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ConcentrationOfTheSubstanceOfConcern">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 7(5)</dc:source>
+        <rdfs:comment xml:lang="en">the concentration of the substances of concern, at the level of the product, its relevant components, or spare parts;</rdfs:comment>
+        <rdfs:label xml:lang="en">Concentration of the substance of concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ConcentrationRangeOfTheSubstanceOfConcern -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ConcentrationRangeOfTheSubstanceOfConcern">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1782; Art 7(5)</dc:source>
+        <rdfs:comment xml:lang="en">concentration range of the substances of concern, at the level of the product, its relevant components, or spare parts;</rdfs:comment>
+        <rdfs:label xml:lang="en">Concentration range of the substance of concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ConformityAssessment -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ConformityAssessment">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(51)</dc:source>
+        <rdfs:comment xml:lang="en">means the process demonstrating whether the ecodesign requirements set out in the relevant delegated acts adopted pursuant to Article 4 have been fulfilled</rdfs:comment>
+        <rdfs:label xml:lang="en">Conformity assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ConformityAssessmentBody -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ConformityAssessmentBody">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(52)</dc:source>
+        <rdfs:comment xml:lang="en">means a body that performs conformity assessment activities including calibration, testing, certification and inspection</rdfs:comment>
+        <rdfs:label xml:lang="en">Conformity assessment body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Consumer -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Consumer">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2019/771/oj"/>
+        <dc:source xml:lang="en">Directive (EU) 2019/771; Art 2(2)</dc:source>
+        <rdfs:comment xml:lang="en">means any natural person who, in relation to contracts covered by this Directive, is acting for purposes which are outside that person&apos;s trade, business, craft or profession</rdfs:comment>
+        <rdfs:label xml:lang="en">Consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ConsumerProduct -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ConsumerProduct">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(36)</dc:source>
+        <rdfs:comment xml:lang="en">means any product, excluding components and intermediate products, primarily intended for consumers</rdfs:comment>
+        <rdfs:label xml:lang="en">Consumer product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ContractingAuthorities -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ContractingAuthorities">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2014/24/oj"/>
+        <dc:source xml:lang="en">Directive 2014/24/EU ; Art 2(1)</dc:source>
+        <rdfs:comment xml:lang="en">means the State, regional or local authorities, bodies governed by public law or associations formed by one or more such authorities or one or more such bodies governed by public law</rdfs:comment>
+        <rdfs:label xml:lang="en">Contracting authorities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ContractingEntities -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ContractingEntities">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2014/24/oj"/>
+        <dc:source xml:lang="en">Directive 2014/25/EU ; Art 4(1)</dc:source>
+        <rdfs:comment xml:lang="en">see Directive 2014/25/EU  Art 4(1)</rdfs:comment>
+        <rdfs:label xml:lang="en">Contracting entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#CorrectiveAction -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#CorrectiveAction">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(16)</dc:source>
+        <rdfs:comment xml:lang="en">means any action taken by an economic operator to bring any non-compliance to an end where required by a market surveillance authority or on the economic operator&apos;s own initiative</rdfs:comment>
+        <rdfs:label xml:lang="en">Corrective action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Customer -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Customer">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(35)</dc:source>
+        <rdfs:comment xml:lang="en">means a natural or legal person that purchases, hires or receives a product for their own use whether or not acting for purposes which are outside their trade, business, craft or profession</rdfs:comment>
+        <rdfs:label xml:lang="en">Customer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#CustomsAuthorities -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#CustomsAuthorities">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(24)</dc:source>
+        <rdfs:comment xml:lang="en">means customs authorities as defined in point 1 of Article 5 of Regulation (EU) No 952/2013</rdfs:comment>
+        <rdfs:label xml:lang="en">Customs authorities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DPPData -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DPPData">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(16)</dc:source>
+        <rdfs:comment xml:lang="en">means the information included in a product passport and accessible to different users based on their own respective access rights</rdfs:comment>
+        <rdfs:label xml:lang="en">DPP-data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DPPSystem -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DPPSystem">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(15)</dc:source>
+        <rdfs:comment xml:lang="en">means the set of IT standards and protocols required to ensure the full interoperability of product passports and compliance with the requirements referred to in point 2.1</rdfs:comment>
+        <rdfs:label xml:lang="en">DPP-system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DataCarrier -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DataCarrier">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(29)</dc:source>
+        <rdfs:comment xml:lang="en">means a linear barcode symbol, a two-dimensional symbol or other automatic identification data capture medium that can be read by a device</rdfs:comment>
+        <rdfs:label xml:lang="en">Data carrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Dealer -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Dealer">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(55)</dc:source>
+        <rdfs:comment xml:lang="en">means a distributor or any other natural or legal person that offers products for sale, hire or hire purchase, or that displays products, to end users in the course of a commercial activity, including through distance selling; and includes any natural or legal person that puts a product into service in the course of a commercial activity</rdfs:comment>
+        <rdfs:label xml:lang="en">Dealer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DecentralisedIdentifier -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DecentralisedIdentifier">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(17)</dc:source>
+        <rdfs:comment xml:lang="en">means a globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically</rdfs:comment>
+        <rdfs:label xml:lang="en">Decentralised identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Destruction -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Destruction">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(34)</dc:source>
+        <rdfs:comment xml:lang="en">means the intentional damaging or discarding of a product as waste with the exception of discarding for the sole purpose of delivering the discarded product for preparing for reuse, including refurbishment or remanufacturing operations</rdfs:comment>
+        <rdfs:label xml:lang="en">Destruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DigitalInstructions -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DigitalInstructions">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 27(7)</dc:source>
+        <rdfs:comment xml:lang="en">instructions in digital format concerning the product (‘digital instructions’) in a language that can be easily understood</rdfs:comment>
+        <rdfs:label xml:lang="en">Digital instructions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DigitalProductPassport -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DigitalProductPassport">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(28)</dc:source>
+        <rdfs:comment xml:lang="en">means a set of data specific to a product that includes the information specified in the applicable delegated act adopted pursuant to Article 4 and that is accessible via electronic means through a data carrier in accordance with Chapter III</rdfs:comment>
+        <rdfs:label xml:lang="en">Digital product passport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DigitalProductPassportServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DigitalProductPassportServiceProvider">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(32)</dc:source>
+        <rdfs:comment xml:lang="en">means a natural or legal person that is an independent third-party authorised by the economic operator which places the product on the market or puts it into service and that processes the digital product passport data for that product for the purpose of making such data available to economic operators and other relevant actors with a right to access those data under this Regulation or other Union law</rdfs:comment>
+        <rdfs:label xml:lang="en">Digital product passport service provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#DistanceSelling -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#DistanceSelling">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(56)</dc:source>
+        <rdfs:comment xml:lang="en">means the offer for sale, hire or hire purchase of products, online or through other means of distance sales, whereby the potential customer cannot physically access the product</rdfs:comment>
+        <rdfs:label xml:lang="en">Distance selling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Distributor -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Distributor">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(45)</dc:source>
+        <rdfs:comment xml:lang="en">means any natural or legal person in the supply chain, other than the manufacturer or the importer, that makes a product available on the market</rdfs:comment>
+        <rdfs:label xml:lang="en">Distributor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Durability -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Durability">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(22)</dc:source>
+        <rdfs:comment xml:lang="en">means the ability of a product to maintain over time its function and performance under specified conditions of use, maintenance and repair</rdfs:comment>
+        <rdfs:label xml:lang="en">Durability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EUDeclarationOfConformity -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EUDeclarationOfConformity">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Annex V</dc:source>
+        <rdfs:comment xml:lang="en">means EU declaration of conformity (ESPR Annex V)</rdfs:comment>
+        <rdfs:label xml:lang="en">EU Declaration of conformity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EUEcolabel -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EUEcolabel">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2010/66/oj"/>
+        <dc:source xml:lang="en">Regulation (EC) 66/2010;</dc:source>
+        <rdfs:comment xml:lang="en">means the label provided by the European union that promotes goods and services with a guaranteed reduced environmental impact throughout their entire life cycle information on specific (voluntary) labels applicable to the product. (EC No 66/2010)</rdfs:comment>
+        <rdfs:label xml:lang="en">EU Ecolabel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EURegistry -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EURegistry">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1782; Art 13(1)</dc:source>
+        <rdfs:comment xml:lang="en">means the digital product passport registry to be set up by the European   Commission to store in a secure manner at least the unique identifiers linked to  products placed on the market or put into service in the EU (Art. 13(1) and   Recital 41, ESPR)</rdfs:comment>
+        <rdfs:label xml:lang="en">EU Registry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Ecodesign -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Ecodesign">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(6)</dc:source>
+        <rdfs:comment xml:lang="en">means the integration of environmental sustainability considerations into the characteristics of a product and the processes taking place throughout the product’s value chain</rdfs:comment>
+        <rdfs:label xml:lang="en">Ecodesign</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EcodesignRequirement -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EcodesignRequirement">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(7)</dc:source>
+        <rdfs:comment xml:lang="en">means a performance requirement or an information requirement aimed at making a product, including processes taking place throughout the product’s value chain, more environmentally sustainable</rdfs:comment>
+        <rdfs:label xml:lang="en">Ecodesign requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EconomicOperator -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EconomicOperator">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(46)</dc:source>
+        <rdfs:comment xml:lang="en">means the manufacturer, the authorised representative, the importer, the distributor, the dealer and the fulfilment service provider</rdfs:comment>
+        <rdfs:label xml:lang="en">Economic operator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EndOfLife -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EndOfLife">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(13)</dc:source>
+        <rdfs:comment xml:lang="en">means the life cycle stage that begins when a product is discarded and ends when the waste material of the product is returned to nature or enters another product’s life cycle</rdfs:comment>
+        <rdfs:label xml:lang="en">End-of-life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EndUser -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EndUser">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(21)</dc:source>
+        <rdfs:comment xml:lang="en">means any natural or legal person residing or established in the Union, to whom a product has been made available either as a consumer outside of any trade, business, craft or profession or as a professional end user in the course of its industrial or professional activities</rdfs:comment>
+        <rdfs:label xml:lang="en">End-user</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EnergyRelatedProduct -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EnergyRelatedProduct">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(4)</dc:source>
+        <rdfs:comment xml:lang="en">means any product that has an impact on energy consumption during use</rdfs:comment>
+        <rdfs:label xml:lang="en">Energy-related product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Enterprise -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Enterprise">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reco/2003/361/oj"/>
+        <dc:source xml:lang="en">Commission Recommendation 2003/361/EC; Art 1</dc:source>
+        <rdfs:comment xml:lang="en">An enterprise is considered to be any entity engaged in an economic activity, irrespective of its legal form. This includes, in particular, self-employed persons and family businesses engaged in craft or other activities, and partnerships or associations regularly engaged in an economic activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Enterprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EnvironmentalFootprint -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EnvironmentalFootprint">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(24)</dc:source>
+        <rdfs:comment xml:lang="en">means a quantification of the environmental impacts resulting from a product throughout its life cycle, whether in relation to a single environmental impact category or an aggregated set of impact categories based on the Product Environmental Footprint method established by Recommendation (EU) 2021/2279 or other scientific methods developed by international organisations, widely tested in collaboration with different industry sectors and adopted or implemented by the Commission in other Union law</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental footprint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EnvironmentalImpact -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EnvironmentalImpact">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(14)</dc:source>
+        <rdfs:comment xml:lang="en">means any change to the environment, whether adverse or beneficial, wholly or partially resulting from a product during its life cycle</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#EuropeanStandard -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#EuropeanStandard">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2012/1025/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) No 1025/2012; Art 2(1)(b)</dc:source>
+        <rdfs:comment xml:lang="en">means a standard adopted by a European standardisation organisation</rdfs:comment>
+        <rdfs:label xml:lang="en">European standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#FulfilmentServiceProvider -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#FulfilmentServiceProvider">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(11)</dc:source>
+        <rdfs:comment xml:lang="en">means any natural or legal person offering, in the course of commercial activity, at least two of the following services: warehousing, packaging, addressing and dispatching, without having ownership of the products involved, excluding postal services as defined in point 1 of Article 2 of Directive 97/67/EC of the European Parliament and of the Council (31), parcel delivery services as defined in point 2 of Article 2 of Regulation (EU) 2018/644 of the European Parliament and of the Council (32), and any other postal services or freight transport services</rdfs:comment>
+        <rdfs:label xml:lang="en">Fulfilment service provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#HarmonisedStandard -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#HarmonisedStandard">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2012/1025/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) No 1025/2012 ; Art 2(1)(c)</dc:source>
+        <rdfs:comment xml:lang="en">means a European standard adopted on the basis of a request made by the Commission for the application of Union harmonisation legislation</rdfs:comment>
+        <rdfs:label xml:lang="en">Harmonised standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#HazardousWaste -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#HazardousWaste">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2008/98/oj"/>
+        <dc:source xml:lang="en">Directive 2008/98/EC ; Art 3(2)</dc:source>
+        <rdfs:comment xml:lang="en">means waste which displays one or more of the hazardous properties listed in Annex III</rdfs:comment>
+        <rdfs:label xml:lang="en">Hazardous waste</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Importer -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Importer">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(44)</dc:source>
+        <rdfs:comment xml:lang="en">means any natural or legal person established in the Union that places a product from a third country on the Union market</rdfs:comment>
+        <rdfs:label xml:lang="en">Importer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#IndependentOperator -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#IndependentOperator">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(47)</dc:source>
+        <rdfs:comment xml:lang="en">means a natural or legal person that is independent of the manufacturer and is directly or indirectly involved in the refurbishment, repair, maintenance or repurposing of a product, and includes waste management operators, refurbishers, repairers, manufacturers or distributors of repair equipment, tools or spare parts, as well as publishers of technical information, operators offering inspection and testing services and operators offering training for installers, manufacturers and repairers of equipment</rdfs:comment>
+        <rdfs:label xml:lang="en">Independent operator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#InformationRequirement -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#InformationRequirement">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(9)</dc:source>
+        <rdfs:comment xml:lang="en">means an obligation for a product to be accompanied by information as specified in Article 7(2)</rdfs:comment>
+        <rdfs:label xml:lang="en">Information requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#IntermediateProduct -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#IntermediateProduct">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(3)</dc:source>
+        <rdfs:comment xml:lang="en">means a product that requires further manufacturing or transformation such as mixing, coating or assembling to make it suitable for end-users</rdfs:comment>
+        <rdfs:label xml:lang="en">Intermediate product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#IssuingAgency -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#IssuingAgency">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1780; Art 12(4)</dc:source>
+        <rdfs:comment xml:lang="en">are legal persons that provide unique identifiers and data carriers Art.12(4a).   Under specific conditions, economic operators may perform the functions   associated with an Issuing Agency (Art 12 (4b)).</rdfs:comment>
+        <rdfs:label xml:lang="en">Issuing agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Item -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Item">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(4)</dc:source>
+        <rdfs:comment xml:lang="en">means a single unit of a model</rdfs:comment>
+        <rdfs:label xml:lang="en">Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Label -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Label">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Annex III</dc:source>
+        <rdfs:comment xml:lang="en">means information on specific (voluntary) labels applicable to the product. That shall include whether an EU Ecolabel has been awarded to the product in line with Regulation (EC) No 66/2010. (ESPR Annex III).</rdfs:comment>
+        <rdfs:label xml:lang="en">Label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#LifeCycle -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#LifeCycle">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(12)</dc:source>
+        <rdfs:comment xml:lang="en">means the consecutive and interlinked stages of a product’s life, consisting of raw material acquisition or generation from natural resources, pre-processing, manufacturing, storage, distribution, installation, use, maintenance, repair, upgrading, refurbishment and reuse, and end-of-life</rdfs:comment>
+        <rdfs:label xml:lang="en">Life cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#LocationOfSubstanceOfConcern -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#LocationOfSubstanceOfConcern">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 7(5)</dc:source>
+        <rdfs:comment xml:lang="en">the location of the substances of concern within the product;</rdfs:comment>
+        <rdfs:label xml:lang="en">Location of substance of concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Maintenance -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Maintenance">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(19)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means an action carried out to keep a product in a condition where it is able to function as required.  
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(8); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means one or more actions carried out to keep a product in a condition where it is able to fulfil its intended purpose</rdfs:comment>
+        <rdfs:label xml:lang="en">Maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#MakingAvailableOnTheMarket -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#MakingAvailableOnTheMarket">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(39)</dc:source>
+        <rdfs:comment xml:lang="en">means any supply of a product for distribution, consumption or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge</rdfs:comment>
+        <rdfs:label xml:lang="en">Making available on the market</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Manufacturer -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Manufacturer">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(42)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means any natural or legal person who manufactures a product or who has such a product designed or manufactured and markets that product under its name or trademark or, in the absence of such person, any natural or legal person who places on the market or puts into service a product.
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(5); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means any natural or legal person that manufactures a product or that has a product designed or manufactured, and markets that product under their name or trademark</rdfs:comment>
+        <rdfs:label xml:lang="en">Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#MarketSurveillance -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#MarketSurveillance">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020 ; Art 3(3)</dc:source>
+        <rdfs:comment xml:lang="en">means the activities carried out and measures taken by market surveillance authorities to ensure that products comply with the requirements set out in the applicable Union harmonisation legislation and to ensure protection of the public interest covered by that legislation</rdfs:comment>
+        <rdfs:label xml:lang="en">Market surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#MarketSurveillanceAuthority -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#MarketSurveillanceAuthority">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020 ; Art 3(4)</dc:source>
+        <rdfs:comment xml:lang="en">means an authority designated by a Member State under Article 10 as responsible for carrying out market surveillance in the territory of that Member State</rdfs:comment>
+        <rdfs:label xml:lang="en">Market surveillance authority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#MaterialFootprint -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#MaterialFootprint">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(26)</dc:source>
+        <rdfs:comment xml:lang="en">refers to the total amount of raw materials extracted to meet final consumption demands</rdfs:comment>
+        <rdfs:label xml:lang="en">Material footprint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#MaximumConcentrationOfTheSubstanceOfConcern -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#MaximumConcentrationOfTheSubstanceOfConcern">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1782; Art 7(5)</dc:source>
+        <rdfs:comment xml:lang="en">the maximum concentration of the substances of concern, at the level of the product, its relevant components, or spare parts;</rdfs:comment>
+        <rdfs:label xml:lang="en">Maximum concentration of the substance of concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Microenterprise -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Microenterprise">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reco/2003/361/oj"/>
+        <dc:source xml:lang="en">Commission Recommendation 2003/361/EC; Art 2(3)</dc:source>
+        <rdfs:comment xml:lang="en">Within the SME category, a microenterprise is defined as an enterprise which employs fewer than 10 persons and whose annual turnover and/or annual balance sheet total does not exceed EUR 2 million.</rdfs:comment>
+        <rdfs:label xml:lang="en">Microenterprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Mixture -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Mixture">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2006/1907/2024-10-10"/>
+        <dc:source xml:lang="en">Regulation (EC) No 1907/2006; Art 3(2)</dc:source>
+        <rdfs:comment xml:lang="en">Preparation: means a mixture or solution composed of two or more substances</rdfs:comment>
+        <rdfs:label xml:lang="en">Mixture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Model -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Model">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(2)</dc:source>
+        <rdfs:comment xml:lang="en">means a version of a product of which all units share the same technical characteristics and the same model identifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#NationalAccreditationBody -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#NationalAccreditationBody">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2008/765/oj"/>
+        <dc:source xml:lang="en">Regulation (EC) No 765/2008; Art 2(11)</dc:source>
+        <rdfs:comment xml:lang="en">shall mean the sole body in a Member State that performs accreditation with authority derived from the State</rdfs:comment>
+        <rdfs:label xml:lang="en">National accreditation body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#NotifiedBody -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#NotifiedBody">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(53)</dc:source>
+        <rdfs:comment xml:lang="en">means a conformity assessment body notified in accordance with Chapter IX</rdfs:comment>
+        <rdfs:label xml:lang="en">Notified body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#OnlineInterface -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#OnlineInterface">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(15)</dc:source>
+        <rdfs:comment xml:lang="en">means any software, including a website, part of a website or an application, that is operated by or on behalf of an economic operator, and which serves to give end users access to the economic operator&apos;s products</rdfs:comment>
+        <rdfs:label xml:lang="en">Online interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#PerformanceRequirement -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#PerformanceRequirement">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(8)</dc:source>
+        <rdfs:comment xml:lang="en">means a quantitative or non-quantitative requirement for or in relation to a product to achieve a certain performance level in relation to a product parameter referred to in Annex I</rdfs:comment>
+        <rdfs:label xml:lang="en">Performance requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#PlacingOnTheMarket -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#PlacingOnTheMarket">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(40)</dc:source>
+        <rdfs:comment xml:lang="en">means the first making available of a product on the Union market</rdfs:comment>
+        <rdfs:label xml:lang="en">Placing on the market</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#PrematureObsolescence -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#PrematureObsolescence">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(21)</dc:source>
+        <rdfs:comment xml:lang="en">means a product design feature or subsequent action or omission resulting in the product becoming non-functional or performing less well without such changes of functionality or performance being the result of normal wear and tear</rdfs:comment>
+        <rdfs:label xml:lang="en">Premature obsolescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#PreparingForReuse -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#PreparingForReuse">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2008/98/oj"/>
+        <dc:source xml:lang="en">Directive 2008/98/EC ; Art 3(16)</dc:source>
+        <rdfs:comment xml:lang="en">means checking, cleaning or repairing recovery operations, by which products or components of products that have become waste are prepared so that they can be re-used without any other pre-processing</rdfs:comment>
+        <rdfs:label xml:lang="en">Preparing for reuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Processing -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Processing">
+        <dc:identifier rdf:resource="https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en"/>
+        <dc:source xml:lang="en">EC standardisation request 5423 Annexes ; Annex II Part A(14)</dc:source>
+        <rdfs:comment xml:lang="en">means processing as defined in Article 3, point (2), of Regulation (EU) 2018/1807 of the European Parliament and of the Council1</rdfs:comment>
+        <rdfs:label xml:lang="en">Processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Product -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Product">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(1)</dc:source>
+        <rdfs:comment xml:lang="en">means any physical goods that are placed on the market or put into service</rdfs:comment>
+        <rdfs:label xml:lang="en">Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ProductGroup -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ProductGroup">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(5)</dc:source>
+        <rdfs:comment xml:lang="en">means a set of products that serve similar purposes and are similar in terms of use, or have similar functional properties, and are similar in terms of consumer perception</rdfs:comment>
+        <rdfs:label xml:lang="en">Product group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ProductPassportAccessRights -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ProductPassportAccessRights">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 11(1)</dc:source>
+        <rdfs:comment xml:lang="en">mean that rights to introduce, modify or update data in the digital product passport shall be restricted based on the access rights specified in delegated acts adopted. (ESPR Art 11.1 (f) p41)
+Access rights management shall be attribute-based. (Standardisation request 5423 ANNEX II, Part B 3.2) p9)
+Economic operators shall be responsible for managing the corresponding product passport access rights. (Standardisation request 5423 ANNEX II Part B 3.2) p9)
+Access rights for each information included in the product passport shall be product group specific. (Standardisation request 5423 ANNEX II, Part B (3.2) p9)
+Public data included in the product passport shall not require any access right management. (Standardisation request 5423 ANNEX II, Part B (3.2) p9)</rdfs:comment>
+        <rdfs:label xml:lang="en">Product passport access rights</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ProductPresentingARisk -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ProductPresentingARisk">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(57)</dc:source>
+        <rdfs:comment xml:lang="en">means a product that, by not complying with an ecodesign requirement set in or pursuant to this Regulation other than those listed in Article 71(1), could adversely affect the environment or other public interests protected by that requirement</rdfs:comment>
+        <rdfs:label xml:lang="en">Product presenting a risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ProductPresentingASeriousRisk -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ProductPresentingASeriousRisk">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(58)</dc:source>
+        <rdfs:comment xml:lang="en">means a product presenting a risk for which, based on an assessment, the degree of the relevant non-compliance or the associated harm is considered to require rapid intervention by the market surveillance authorities, including cases where the effects of the non-compliance are not immediate</rdfs:comment>
+        <rdfs:label xml:lang="en">Product presenting a serious risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ProfessionalRepairer -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ProfessionalRepairer">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(48)</dc:source>
+        <rdfs:comment xml:lang="en">means a natural or legal person that provides professional repair or maintenance services for a product, irrespective of whether that person acts within the manufacturer’s distribution system or independently</rdfs:comment>
+        <rdfs:label xml:lang="en">Professional repairer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ProviderOfAnOnlineMarketplace -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ProviderOfAnOnlineMarketplace">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(54)</dc:source>
+        <rdfs:comment xml:lang="en">means a provider of an intermediary service using an online interface which allows customers to conclude distance contracts with economic operators for the sale of products covered by delegated acts adopted pursuant to Article 4</rdfs:comment>
+        <rdfs:label xml:lang="en">Provider of an online marketplace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#PublicContract -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#PublicContract">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(41)</dc:source>
+        <rdfs:comment xml:lang="en">means contracts covered by Directives 2014/24/EU and 2014/25/EU</rdfs:comment>
+        <rdfs:label xml:lang="en">Public contract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#PuttingIntoService -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#PuttingIntoService">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(22)</dc:source>
+        <rdfs:comment xml:lang="en">means the first use, for its intended purpose, in the Union, of a product</rdfs:comment>
+        <rdfs:label xml:lang="en">Putting into service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Recall -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Recall">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2008/98/oj"/>
+        <dc:source xml:lang="en">Directive 2008/98/EC ; Art 3(15)</dc:source>
+        <rdfs:comment xml:lang="en">means any measure aimed at achieving the return of a product that has already been made available to the end user</rdfs:comment>
+        <rdfs:label xml:lang="en">Recall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Recovery -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Recovery">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2008/98/oj"/>
+        <dc:source xml:lang="en">Directive 2008/98/EC ; Art 3(17)</dc:source>
+        <rdfs:comment xml:lang="en">means any operation the principal result of which is waste serving a useful purpose by replacing other materials which would otherwise have been used to fulfil a particular function, or waste being prepared to fulfil that function, in the plant or in the wider economy. Annex II sets out a non-exhaustive list of recovery operations</rdfs:comment>
+        <rdfs:label xml:lang="en">Recovery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Recycling -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Recycling">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(18)</dc:source>
+        <rdfs:comment xml:lang="en">means any recovery operation by which waste materials are reprocessed into products, materials or substances whether for the original or other purposes. It includes the reprocessing of organic material but does not include energy recovery and the reprocessing into materials that are to be used as fuels or for backfilling operations</rdfs:comment>
+        <rdfs:label xml:lang="en">Recycling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Refurbishment -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Refurbishment">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(25)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means actions carried out to prepare, clean, test, service and, where necessary, repair a product or a discarded product in order to restore its performance or functionality within the intended use and range of performance originally conceived at the design stage at the time of the placing of the product on the market.
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(7); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means preparing or modifying an object that is waste or a product to restore its performance or functionality within the intended use, range of performance and maintenance originally conceived at the design stage, or to meet applicable technical standards or regulatory requirements, with the result of making a fully functional product</rdfs:comment>
+        <rdfs:label xml:lang="en">Refurbishment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ReleaseForFreeCirculation -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ReleaseForFreeCirculation">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(23)</dc:source>
+        <rdfs:comment xml:lang="en">means the procedure laid down in Article 201 of Regulation (EU) No 952/2013</rdfs:comment>
+        <rdfs:label xml:lang="en">Release for free circulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Reliability -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Reliability">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(16)</dc:source>
+        <rdfs:comment xml:lang="en">means the probability that a product functions as required under given conditions for a given duration without an occurrence which results in a primary or secondary function of the product no longer being performed</rdfs:comment>
+        <rdfs:label xml:lang="en">Reliability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Remanufacturing -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Remanufacturing">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(20)</dc:source>
+        <rdfs:comment xml:lang="en">means actions through which a new product is produced from objects that are waste, products or components and through which at least one change is made that substantially affects the safety, performance, purpose or type of the product</rdfs:comment>
+        <rdfs:label xml:lang="en">Remanufacturing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Repair -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Repair">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2008/98/oj"/>
+        <dc:source xml:lang="en">Directive 2008/98/EC ; Art 3(13)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means one or more actions carried out to return a defective product or waste to a condition where it fulfils its intended purpose.
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(9); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means returning a defective product or waste to a condition where it fulfils its intended use</rdfs:comment>
+        <rdfs:label xml:lang="en">Repair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Reuse -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Reuse">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(38)</dc:source>
+        <rdfs:comment xml:lang="en">means any operation by which products or components that are not waste are used again for the same purpose for which they were conceived</rdfs:comment>
+        <rdfs:label xml:lang="en">Reuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#SME -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#SME">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2012/1025/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) No 1025/2012; Art 2(1)</dc:source>
+        <rdfs:comment xml:lang="en">The category of micro, small and medium-sized enterprises (SMEs) is made up of enterprises which employ fewer  than 250 persons and which have an annual turnover not exceeding EUR 50 million, and/or an annual balance sheet  total not exceeding EUR 43 million.</rdfs:comment>
+        <rdfs:label xml:lang="en">SME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#SelfRegulationMeasure -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#SelfRegulationMeasure">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reco/2003/361/oj"/>
+        <dc:source xml:lang="en">Commission Recommendation 2003/361/EC; Art 2(2)</dc:source>
+        <rdfs:comment xml:lang="en">means a voluntary agreement or a code of conduct, concluded by economic operators on their own initiative, which they are responsible for enforcing</rdfs:comment>
+        <rdfs:label xml:lang="en">Self-regulation measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#SmallEnterprise -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#SmallEnterprise">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reco/2003/361/oj"/>
+        <dc:source xml:lang="en">Commission Recommendation 2003/361/EC; Art 2(1)</dc:source>
+        <rdfs:comment xml:lang="en">Within the SME category, a small enterprise is defined as an enterprise which employs fewer than 50 persons and whose annual turnover and/or annual balance sheet total does not exceed EUR 10 million.</rdfs:comment>
+        <rdfs:label xml:lang="en">Small enterprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Standard -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Standard">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2006/1907/2024-10-10"/>
+        <dc:source xml:lang="en">Regulation (EC) No 1907/2006; Art 3(1)</dc:source>
+        <rdfs:comment xml:lang="en">means a technical specification, adopted by a recognised standardisation body, for repeated or continuous application, with which compliance is not compulsory, and which is one of the following</rdfs:comment>
+        <rdfs:label xml:lang="en">Standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Substance -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Substance">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(27)</dc:source>
+        <rdfs:comment xml:lang="en">means a chemical element and its compounds in the natural state or obtained by any manufacturing process, including any additive necessary to preserve its stability and any impurity deriving from the process used, but excluding any solvent which may be separated without affecting the stability of the substance or changing its composition</rdfs:comment>
+        <rdfs:label xml:lang="en">Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#SubstanceOfConcern -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#SubstanceOfConcern">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(10)</dc:source>
+        <rdfs:comment xml:lang="en">means a substance that:(a) meets the criteria laid down in Article 57 of Regulation (EC) No 1907/2006 and is identified in accordance with Article 59(1) of that Regulation; (b) is classified in Part 3 of Annex VI to Regulation (EC) No 1272/2008 in one of the following hazard classes or hazard categories: (i) carcinogenicity categories 1 and 2; (ii) germ cell mutagenicity categories 1 and 2; (iii) reproductive toxicity categories 1 and 2; (iv) endocrine disruption for human health categories 1 and 2; (v) endocrine disruption for the environment categories 1 and 2; (vi) persistent, mobile and toxic or very persistent, very mobile properties; (vii) persistent, bioaccumulative and toxic or very persistent, very bioaccumulative properties; (viii) respiratory sensitisation category 1; (ix) skin sensitisation category 1; (x) hazardous to the aquatic environment — categories chronic 1 to 4; (xi) hazardous to the ozone layer; (xii) specific target organ toxicity — repeated exposure categories 1 and 2; (xiii) specific target organ toxicity — single exposure categories 1 and 2; (c) is regulated under Regulation (EU) 2019/1021; or (d) negatively affects the reuse and recycling of materials in the product in which it is present</rdfs:comment>
+        <rdfs:label xml:lang="en">Substance of concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#SupplyChain -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#SupplyChain">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(49)</dc:source>
+        <rdfs:comment xml:lang="en">means all upstream activities and processes of the product’s value chain, up to the point where the product reaches the customer</rdfs:comment>
+        <rdfs:label xml:lang="en">Supply chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#TechnicalSpecification -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#TechnicalSpecification">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(33)</dc:source>
+        <rdfs:comment xml:lang="en">means a document that prescribes technical requirements to be fulfilled by a product, process or service</rdfs:comment>
+        <rdfs:label xml:lang="en">Technical specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#UniqueFacilityIdentifier -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#UniqueFacilityIdentifier">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(31)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means a unique string of characters for the identification of locations or buildings involved in a product’s value chain or used by actors involved in a product’s value chain.
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(13); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means a unique string of characters for the identification of locations or buildings involved in the value chain of a product or used by actors involved in the value chain of a product</rdfs:comment>
+        <rdfs:label xml:lang="en">Unique facility identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#UniqueOperatorIdentifier -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#UniqueOperatorIdentifier">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(30)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means a unique string of characters for the identification of an actor involved in a product’s value chain.
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(12); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means a unique string of characters for the identification of actors involved in the value chain of products</rdfs:comment>
+        <rdfs:label xml:lang="en">Unique operator identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#UniqueProductIdentifier -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#UniqueProductIdentifier">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1780; Art 13(5)</dc:source>
+        <rdfs:comment xml:lang="en">means a unique string of characters for the identification of products that also enables a web link to the product passport</rdfs:comment>
+        <rdfs:label xml:lang="en">Unique product identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#UniqueRegistrationIdentifier -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#UniqueRegistrationIdentifier">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(37)</dc:source>
+        <rdfs:comment xml:lang="en">means a unique registration identifier associated with the unique identifiers uploaded into the EU registry for a specific product in accordance with Art. 13(4) by the economic operator placing the product on the market or putting it into service.</rdfs:comment>
+        <rdfs:label xml:lang="en">Unique registration identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#UnsoldConsumerProduct -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#UnsoldConsumerProduct">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(17)</dc:source>
+        <rdfs:comment xml:lang="en">means any consumer product that has not been sold including surplus stock, excess inventory and deadstock and products returned by a consumer on the basis of their right of withdrawal in accordance with Article 9 of Directive 2011/83/EU or, where applicable, during any longer withdrawal period provided by the trader</rdfs:comment>
+        <rdfs:label xml:lang="en">Unsold consumer product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Upgrading -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Upgrading">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Art 2(11)</dc:source>
+        <dcterms:description xml:lang="en">ALTERNATIVE: means actions carried out to enhance the functionality, performance, capacity, safety or aesthetics of a product.
+Source: EC standardisation request 5423 Annexes ; Annex II Part A(6); https://ec.europa.eu/transparency/documents-register/detail?ref=C(2024)5423&amp;lang=en</dcterms:description>
+        <rdfs:comment xml:lang="en">means enhancing the functionality, performance, capacity, or aesthetics of a product</rdfs:comment>
+        <rdfs:label xml:lang="en">Upgrading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ValueChain -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ValueChain">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/dir/2008/98/oj"/>
+        <dc:source xml:lang="en">Directive 2008/98/EC ; Art 2(11)</dc:source>
+        <rdfs:comment xml:lang="en">means all activities and processes that are part of the life cycle of a product, as well as its possible remanufacturing</rdfs:comment>
+        <rdfs:label xml:lang="en">Value chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#ValueChainActor -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#ValueChainActor">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2024/1781/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2024/1781; Recitals (32)</dc:source>
+        <rdfs:comment xml:lang="en">are economic operators, namely manufacturers, authorised representatives, importers, distributors, dealers and fulfilment service providers, and other value  chain actors, such as customers, professional repairers, independent operators, refurbishers, remanufacturers, recyclers, market surveillance and customs authorities, civil society organisations, researchers, trade unions, and the Commission, or any organisation acting on their behalf. (ESPR recital 32)</rdfs:comment>
+        <rdfs:label xml:lang="en">Value chain actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Waste -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Waste">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/oj"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(23)</dc:source>
+        <rdfs:comment xml:lang="en">means any substance or object which the holder discards or intends or is required to discard</rdfs:comment>
+        <rdfs:label xml:lang="en">Waste</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dpp.core/terms#Withdrawal -->
+
+    <owl:Class rdf:about="https://purl.org/dpp.core/terms#Withdrawal">
+        <dc:identifier rdf:resource="https://eur-lex.europa.eu/eli/reg/2019/1020/jo"/>
+        <dc:source xml:lang="en">Regulation (EU) 2019/1020; Art 3(23)</dc:source>
+        <rdfs:comment xml:lang="en">means any measure aimed at preventing a product in the supply chain from being made available on the market</rdfs:comment>
+        <rdfs:label xml:lang="en">Withdrawal</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
