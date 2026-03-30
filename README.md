@@ -23,10 +23,27 @@ The vocabulary is provided as is.
 11.	European Union, 2019a. Directive (EU) 2019/771 of the European Parliament and of the Council of 20 May 2019 on certain aspects concerning contracts for the sale of goods, amending Regulation (EU) 2017/2394 and Directive 2009/22/EC, and repealing Directive 1999/44/EC. URL:https://eur-lex.europa.eu/eli/dir/2019/771/oj 
 12.	European Union, 2019b. Regulation (EU) 2019/1020 of the European Parliament and of the Council of 20 June 2019 on market surveillance and compliance of products and amending Directive 2004/42/EC and Regulations (EC) No 765/2008 and (EU) No 305/2011. URL: https://eur-lex.europa.eu/eli/reg/2019/1020/oj 
 
+## Cite
+If you find this work useful, please cite as follows:  
+* Tarmo Robal, Riina Maigre, Hele-Mai Haav, Ontology Requirements for Digital Product Passports based on the Ecodesign for Sustainable Products Regulation, Procedia Computer Science, Volume 277, 2026, 356-365, ISSN 1877-0509, https://doi.org/10.1016/j.procs.2026.02.077.
 
+```bibtex
+@article{ROBAL2026356,
+	title = {Ontology Requirements for Digital Product Passports based on the Ecodesign for Sustainable Products Regulation},
+	author = {Tarmo Robal and Riina Maigre and Hele-Mai Haav},
+	journal = {Procedia Computer Science},
+	volume = {277},
+	pages = {356-365},
+	year = {2026},
+	note = {7th International Conference on Industry of the Future and Smart Manufacturing (former International Conference on Industry 4.0 and Smart Manufacturing)},
+	issn = {1877-0509},
+	doi = {https://doi.org/10.1016/j.procs.2026.02.077},
+	url = {https://www.sciencedirect.com/science/article/pii/S1877050926001936}
+}
+```
 
 ## Publications
-1. Robal, T., maigre, R., Haav, H-M., 2025. Ontology Requirements for Digital Product Passports based on the Ecodesign for Sustainable Products Regulation, 7th International Conference on Industry of the Future and Smart Manufacturing, ISM 2025, to be published. 
+1. Robal, T., maigre, R., Haav, H-M., 2025. Ontology Requirements for Digital Product Passports based on the Ecodesign for Sustainable Products Regulation, Procedia Computer Science, Volume 277, 2026, 356-365, ISSN 1877-0509, https://doi.org/10.1016/j.procs.2026.02.077. 
 2. Maigre, R., Haav, H.M., Robal, T., Wolf, M.A., Danash, F., 2025. Ontology Requirements Specification for an EU DPP Core Ontology Proposal. doi:10.5281/zenodo.15270342.
 
 ## Licence
